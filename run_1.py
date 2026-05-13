@@ -213,4 +213,9 @@ if __name__ == "__main__":
 
     ctx.add_basemap(ax, crs='EPSG:3857', source=ctx.providers.Esri.WorldImagery)
 
+    img_dir = os.path.join(dir_app, 'images')
+    os.makedirs(img_dir, exist_ok=True)
+    plt.savefig(os.path.join(img_dir, 'cctv_isovist_map.png'), dpi=150, bbox_inches='tight')
+    print("Saved: images/cctv_isovist_map.png")
+
     plt.show()
