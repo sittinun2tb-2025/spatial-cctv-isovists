@@ -96,16 +96,3 @@ python -m pytest test_isovist.py -v
 | CRS (คำนวณ) | EPSG:32647 | UTM Zone 47N |
 | CRS (output) | EPSG:3857 | Web Mercator |
 
----
-
-## Unit Tests
-
-```
-26 passed
-├── TestTrigonAngleDistance  (6 tests)
-├── TestView2BlD             (6 tests)
-├── TestNearestCCTV          (4 tests)
-├── TestOpenFile             (3 tests)
-├── TestListCCTV             (3 tests)
-└── TestRUN                  (4 tests)
-```
