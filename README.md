@@ -42,11 +42,6 @@ flowchart TD
 ### แผนที่ Isovist ของ CCTV ทั้งหมด
 ![CCTV Isovist Map](images/cctv_isovist_map.png)
 
-### ตัวอย่างพื้นที่การมองเห็นรายกล้อง
-![Single CCTV Isovist](images/single_cctv_isovist.png)
-
-> 💡 รันสคริปต์แล้ว screenshot ผลลัพธ์ บันทึกลงใน `images/` เพื่อแสดงในหน้านี้
-
 ---
 
 ## โครงสร้างโปรเจกต์
