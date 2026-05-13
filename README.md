@@ -83,10 +83,11 @@ python -m pytest test_isovist.py -v
 | `ANGLE_STEP` | 0.1° | ความละเอียดของ ray casting |
 | CRS (คำนวณ) | EPSG:32647 | UTM Zone 47N |
 | CRS (output) | EPSG:3857 | Web Mercator |
-```
 
 ---
+
 ## ผลลัพธ์
 
 ### แผนที่ Isovist ของ CCTV ทั้งหมด
+
 ![CCTV Isovist Map](images/cctv_isovist_map.png)
