@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# GIS outputs (large binary files)
+data/output_file.gpkg
+data/grid.shp
+data/grid.dbf
+data/grid.shx
+data/grid.cpg
+data/grid.prj
